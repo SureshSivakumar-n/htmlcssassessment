@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DoodleBlue Innovation</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="doodle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript">
+        function validate() {
+            var firstname = document.getElementsByid("firstname");
+            var lastname = document.getElementsByid("lastname");
+            var email = document.getElementsByid("email");
+            var phone = document.getElementsByid("phone");
+            var select = document.getElementsByid("select");
+            var message = document.getElementsByid("message");
+            if (firstname.value == "" || lastname.value == "" || email == "" || phone.value == "" || Selection.value ==
+                "" || message.value == "") {
+                alert("No blank values allowed");
+
+            } else {
+
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <main>
+        <!-- Navbar -->
+        <header>
+            <nav>
+                <div class="navbar container">
+                    <section class="nav-logo">
+                        <img src="./Img/doodle.png">
+                    </section>
+                    <section class="navitem">
+                        <ul class="nav-links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Pages</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                        <i class="fa fa-search"></i>
+                    </section>
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+            <!------Banner------>
+
+            <div class="banner container">
+                <div class="banner-title">
+                    <p> PROVIDE BUISNESS SOLUTION</p>
+                    <h1> Your buisness <span>success </span>is our <span>buisness</span></h1>
+                    <h5>We are a digital strategy consulting boutique that loves to learn, collaborate and createall
+                        things digital. Amazing things happen to your business when we connect.</h5>
+                    <button type="button">Services</button>
+                    <button type="button">Contact us</button>
+                </div>
+            </div>
+        </header>
+
+        <section class="service container">
+            <h2>Our Cases</h2>
+
+            <div class="service-container">
+                <div>
+                    <img src="./Img/service1.png">
+                    <h3>Family Asset Management</h3>
+                    <p>combining the intimacy of a lowcountry-based, privately-held firm with access to resources that
+                        only
+                        an</p>
+
+                </div>
+                <div>
+                    <img src="./Img/service2.png">
+                    <h3>Succession Planning</h3>
+                    <p>systematic approach for identifying, developing, and retaining capable and skilled employees</p>
+
+                </div>
+                <div>
+                    <img src="./img/service3.png">
+                    <h3>Finance Marketing </h3>
+                    <p>Sysytamatic approach to the process of accompanish the marketing</p>
+                </div>
+            </div>
+
+            <div class="service-container">
+                <div>
+                    <img src="./Img/service4.png">
+                    <h3>Family Asset Management</h3>
+                    <p>combining the intimacy of a lowcountry-based, privately-held firm with access to resources that
+                        only
+                        an</p>
+                </div>
+                <div>
+                    <img src="./Img/service5.png">
+                    <h3>Succession Planning</h3>
+                    <p>systematic approach for identifying, developing, and retaining capable and skilled employees</p>
+
+                </div>
+                <div>
+                    <img src="./img/service6.png">
+                    <h3>Finance Marketing</h3>
+                    <p>Sysytamatic approach to the process of accompanish the marketing recogntion goal team member</p>
+
+                </div>
+            </div>
+
+        </section>
+
+        <div class="divider">
+            <h3 class="container">Looking for an experienced business consultant</h3>
+        </div>
+        <!-------Cases------>
+
+        <section class="features container">
+            <h2>Our Cases</h2>
+
+            <div class="feature-container">
+                <div>
+                    <img src="./Img/field.jpg">
+                    <h3>Family Asset Managem3nt</h3>
+                    <p>combining the intimacy of a lowcountry-based, privately-held firm with access to resources that
+                        only
+                        an</p>
+                    <button>read more</button>
+                </div>
+                <div>
+                    <img src="./Img/finance.jpg">
+                    <h3>Succession Planning</h3>
+                    <p>systematic approach for identifying, developing, and retaining capable and skilled employees</p>
+                    <button>read more</button>
+                </div>
+                <div>
+                    <img src="./img/now.jpg">
+                    <h3>Finance Marketing</h3>
+                    <p>Sysytamatic approach to the process to accompanish the marketing recogntion goal team member.</p>
+                    <button>read more</button>
+                </div>
+            </div>
+        </section>
+
+
+        <!--------form----->
+
+        <div class="wrapper ">
+            <div class="contact-form container">
+                <section class="input-fields">
+                    <form class="form-control">
+                        <input id="firstname" class="input" placeholder="Firstname" type="text">
+                        <input id="lastname" class="input" placeholder="Lastname" type="text">
+                        <input id="email" class="input" placeholder="Email" type="text">
+                        <input id="phone" class="input" placeholder="Phone" type="text">
+                        <select id="select" class="input" placeholder="Select option">
+                            <option value="cloud">Cloud</option>
+                            <option value="finance">Finance</option>
+                            <option value="management">Management</option>
+                            <option value="timeservice">Time service</option>
+                        </select><br>
+                        <input id="message" class="input" placeholder="Message" type="text"><br>
+                        <button onclick="validate()" type="submit">Submit</button></form>
+                </section>
+                <section class="val">
+                    <h2>Friendly and dedicated support<br>every steps on the way</h2><br>
+                    <p>Real people are available 24 hours a day, 7 days a<br> work to help you with whatever you need.
+                    </p>
+                    <br>
+                    <span>140-234-585-402</span>
+                </section>
+            </div>
+        </div>
+
+        <div class="expert">
+            <div class="expert-title">
+                <p> PROVIDE BUISNESS SOLUTION</p>
+                <h1> Your buisness <span>success </span>is our <span>buisness</span></h1>
+                <h5>We are a digital strategy consulting boutique that loves to learn, collaborate and createall
+                    things digital. Amazing things happen to your business when we connect.</h5>
+                <button type="button">Services</button>
+                <button type="button">Contact us</button>
+            </div>
+            <div class="img"></div>
+        </div>
+
+        <footer>
+            <section>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </section>
+            <div class="subscribe">
+                <section>
+                    <input type="text">
+                    <button type="button">SUBMIT</button>
+                </section>
+            </div>
+        </footer>
+    </main>
+
+</body>
+
+</html>
